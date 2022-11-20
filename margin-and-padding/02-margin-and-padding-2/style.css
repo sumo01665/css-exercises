@@ -1,19 +1,13 @@
 body {
   background: #eee;
-  font-family: sans-serif;
-  
-  
+  font-family: sans-serif;    
 }
 
-.card {
-  
-
+.card {  
   width: 400px;
   background: #fff;
   margin: 16px auto;
-  padding: 8px; 
-  
-  
+  padding: 8px;     
 }
 
 .title {
@@ -21,7 +15,6 @@ body {
   font-weight: bold; 
   font-size: 16px;
   padding: 8px; 
-  
   margin: 0 0 8px;
 }
 
@@ -29,7 +22,7 @@ body {
   background: #e3f4ff;
   margin-bottom: 8px;
   padding: 16px 8px; 
-  /* margin: 16px auto;  */
+  /* margin: 16px auto;*/
 }
 
 .button-container {
