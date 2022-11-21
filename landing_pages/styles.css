@@ -1,3 +1,26 @@
+:root{ 
+    /*feat: header */
+    --main-color-font-header-color: #f9faf8;
+    --secondary-text-color: #E5E7EB;
+    --header-logo-text-color: #F9FAF8; 
+    --main-text-font: bold small-caps 48px Georgina, sans-serif; 
+    
+    /* feat: button */
+    --button-color: #3882F6; 
+    
+    /* feat: header text */
+    --info-header-text: 900 36px serif; 
+    --info-header-color: #1F2937; 
+    
+    /*feat: quotations */
+    --quote-text-bg-color: #E5E7EB;
+    --quote-text: italic oblique 36px Georgina, serif; 
+    -quote-text-color: #1F2937; 
+
+
+}
+
+
 *{
     margin: 0; 
     padding: 0; 
@@ -10,5 +33,56 @@
 img{ 
     width: 200px; 
     height: 200px; 
+
+}
+
+header{ 
+    background-color: #1F2937;
+    
+
+}
+
+.header{
+    display: flex; 
+    justify-content: space-around;
+    margin-bottom: 32px;
+}
+
+/* ? List nav bar */
+.header_links{ 
+    display: flex;
+    color: var(--header-logo-text-color); 
+    gap: 16px; 
+
+}
+
+/*  ? Header logo */
+.header_logo{   
+    font: var(--main-text-font);
+    color: var(--header-logo-text-color);
+    
+    
+}
+
+/* ? Introduction parts on the left of the image */
+.intro{ 
+    flex: 1; 
+    display: flex;
+    
+
+}
+
+.intro-text{ 
+    display: flex;
+    flex-direction: column;
+    
+}
+
+
+
+ul{ 
+    list-style-type: none;
+    
+
 
 }
